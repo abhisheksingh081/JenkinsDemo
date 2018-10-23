@@ -27,11 +27,6 @@
 <version>4.12</version>
 </dependency>
 
-<properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
-  </properties>
-
 <dependency>
 <groupId>org.sonarsource.scanner.maven</groupId>
 <artifactId>sonar-maven-plugin</artifactId>
@@ -57,5 +52,10 @@
 </dependency>
     
 </dependencies>
+
+<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 
 </project>
